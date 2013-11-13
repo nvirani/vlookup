@@ -1,4 +1,11 @@
 GIT
+  remote: https://github.com/NirajVirani-BTC/spree_user_profile.git
+  revision: 2997f11f8bf32c11d3ea7cae2fabe93a62114fb4
+  specs:
+    spree_user_profile (2.1.2)
+      spree_core (~> 2.1.0)
+
+GIT
   remote: https://github.com/spree/spree_auth_devise.git
   revision: 586c93b5f6ba3dffd50d30f88ffab9090ea893b0
   branch: 2-1-stable
@@ -310,5 +317,6 @@ DEPENDENCIES
   spree (= 2.1)
   spree_auth_devise!
   spree_gateway!
+  spree_user_profile!
   turbolinks
   uglifier (>= 1.3.0)
